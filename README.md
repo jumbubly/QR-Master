@@ -10,24 +10,30 @@ QR Master is a Python application for generating custom QR codes from text or li
 - Export QR codes as PNG images.
 - User-friendly interface.
 
-## Prerequisites
+## Install Dependencies
 
-Make sure you have Python installed on your system.
+To get started with QR-Master, follow these simple steps:
 
-```bash
-pip install PyQt6 qrcode
+1. Clone this repository to your local machine.
+
+2. Install PyQt6 & qrcode if you haven't already:
+
+   ```bash
+   pip install PyQt6 qrcode
 
 ## Usage
 
-Clone or download this repository.
-Open a terminal and navigate to the project directory.
-Run the application using the following command
+1. Clone or download this repository.
 
-```bash
-python qr_master.py
+2. Open a terminal and navigate to the project directory.
 
-Enter your text or link and click the "Generate QR Code" button.
-The generated QR code will be displayed. You can also export it as a PNG image using the "Export PNG" button.
+3. Run the application using the following command:
+
+   ```bash
+   python qr-master.py
+
+Enter your text or link and click the "Generate QR Code" button. The generated QR code will be displayed. You can also export it as a PNG image using the "Export PNG" button.
+
 To clear the input and generated QR code, click the "Clear" button.
 
 ## Issues
